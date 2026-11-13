@@ -1,5 +1,6 @@
 'use strict';
 
+
 const timerEl = document.getElementById('session-time');
 let seconds = 0;
 
@@ -174,10 +175,6 @@ renderCatalog();
 
 const themeBtn = document.getElementById('theme-toggle');
 const root = document.documentElement;
-
-if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  root.dataset.theme = 'dark';
-}
 
 function syncThemeButton() {
   const isDark = root.dataset.theme === 'dark';
