@@ -1,4 +1,4 @@
-/* style.css: лише семантичні та компонентні токени з tokens.css */
+
 * { box-sizing: border-box; }
 
 body {
@@ -61,7 +61,7 @@ body {
 
 
 main { max-width: var(--layout-main); margin: 0 auto; padding: var(--space-lg) var(--space-lg) var(--space-2xl); }
-.is-hidden { display: none; }
+.is-hidden { display: none !important; }
 h1 { font-size: var(--font-size-title); line-height: 1.15; margin: 0 0 var(--space-sm); color: var(--color-primary); }
 h2 { font-size: var(--font-size-lg); margin: 0 0 var(--space-xs); }
 h3 { font-size: var(--font-size-md); margin: var(--space-lg) 0 var(--space-sm); }
